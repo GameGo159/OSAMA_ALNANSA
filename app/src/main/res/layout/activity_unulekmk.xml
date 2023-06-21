@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".unulekmk">
+
+    <Button
+        android:id="@+id/adanakebap1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Adana Kebap :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ciger"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ciğer :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adanakebap1" />
+
+    <Button
+        android:id="@+id/sırdan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Şırdan Dolması :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ciger" />
+
+    <Button
+        android:id="@+id/fellah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fellah Köftesi :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sırdan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
